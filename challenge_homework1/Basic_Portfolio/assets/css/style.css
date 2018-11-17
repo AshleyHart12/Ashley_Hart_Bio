@@ -1,5 +1,7 @@
 body {
     background-image: url("../images/background.png");
+    margin: 0;
+    padding: 0;
      
 }
 
@@ -8,14 +10,15 @@ body {
     height: 80px;
     border: none;
     border-bottom: 2px solid #dddddd;
-    
+    background-color: #ffffff;
+    margin-top: -15px;
+    }
 
-}
 
 #yourname {
     float: left;
     width: 185px;
-    margin-left: 389px;
+    margin-left: 200px;
     margin-top: 16px;
     height: 50px;
     background-color: #4aaaa5;
@@ -30,7 +33,6 @@ body {
     }
 
 .tabs {
-    background-image: url("../images/background.png");
     float: right;
     border: none;
     margin-top: 39px;
@@ -44,9 +46,10 @@ body {
 
     ul {
         list-style: none;
-        margin-right: 360px;
         border-right: 2px solid #456789 height: 5px;
         text-decoration: none;
+        margin-right: 189px;
+     
     }
  
    a:link {
@@ -71,8 +74,9 @@ body {
 .container {
     width: 960px;
     padding: 35px;
-    margin: 0 auto;
+    margin-left: 200px;
     background-color: #ffffff;
+    /*position: absolute;*/
     
 }
 
@@ -82,11 +86,12 @@ body {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-img {
+img { /*ABOUT IMAGE*/
     float: left;
     max-width: 25%;
     margin: 0px 15px 15px 0px;
     display: inline-block;
+    
 }
 
 p {
@@ -112,15 +117,13 @@ p {
 /*PORTFOLIO*/
 
 #image1, #image2, #image3, #image4, #image5 {
-  
-    display: inline-block;
+    position: relative;
     width: 100%;
     height: 100%;
     z-index: 1;
     margin-left: auto;
     margin-right: auto;
-     }
-
+}
   
 
 #image1text, #image2text, #image3text, #image4text, #image5text {
